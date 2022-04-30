@@ -8,26 +8,32 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Below describes the balanced accuracy scores, the precision, and recall scores of all six machine learning models:
 #### 1. Naive Random Oversampling + Logistic Regression modeling
 ![image](Resources/RandOversamp_acc_score.png)
+
 ![image](Resources/cm_RandOverSamp.png)
 
 #### 2. SMOTE Oversampling + Logistic Regression modeling
 ![image](Resources/SMOTE_acc_score.png)
+
 ![image](Resources/cm_SMOTE.png)
 
 #### 3. Undersampling + Logistic Regression modeling
 ![image](Resources/UnderSamp_acc_score.png)
+
 ![image](Resources/cm_UndSamp.png)
 
 #### 4. SMOTEENN Sampling + Logistic Regression modeling
 ![image](Resources/SMOTEENN_acc_score.png)
+
 ![image](Resources/cm_SMOTEENN.png)
 
 #### 5. BalancedRandomForestClassifier
 ![image](Resources/RF_acc_score.png)
+
 ![image](Resources/cm_RF.png)
 
 #### 6. EasyEnsembleClassifier
 ![image](Resources/ECC_acc_score.png)
+
 ![image](Resources/cm_ECC.png)
 
 ## Summary
